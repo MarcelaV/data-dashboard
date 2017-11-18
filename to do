@@ -1,0 +1,35 @@
+- Fork y tema de git
+- html y css
+
+css - 
+
+ total de estudiants presentes por sede y generacion
+
+
+js - 
+var data
+objeto sede: AQP
+objeto generacion: 2016-2 y 2017-1
+array students = [ 
+objeto name, photo, active (estado) y sprints
+
+array sprints {
+objeto number, score,
+a su vez, objeto score: tech y hse  
+
+************************************+
+
+arreglo ratings 
+	'sprint' : number
+
+		objeto nps (quienes recomiendan lab)
+		objeto promoters
+		objeto passive
+		objeto detractive
+	'student': 
+		no-cumple
+		cumple
+		supera
+	'teacher': (nota)
+	'jedi': (nota)
+

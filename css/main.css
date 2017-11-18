@@ -1,0 +1,106 @@
+body{
+	width: 100%;
+	margin: 0px;
+	border: 0px;
+	background-color: silver;
+}
+header{
+	width: 100%;
+	height: 15%;
+	position: absolute;
+	bottom: 85%;
+	border: 0px;
+	background-color: white;
+
+}
+#logo{
+	width: 70%;
+	height: 70%;	
+	position: absolute;
+	top: 15%;
+	left: 15%;
+}
+.contenedor1{
+	width: 20%;
+	height: 30%;
+	margin-left: 1%;
+	border: 1px solid black;
+	color: black;
+	border-radius: 6%;
+	background-color: #819FF7;
+	position: absolute;
+	top: 15%;
+}
+#sedes{
+	list-style: none;
+	margin: 5%;
+	position: absolute;
+	bottom:12%;
+	left: 10%;
+}
+li{
+	padding-bottom: 4%;
+}
+h3{
+	margin: 12%;
+}
+.contenedor2{
+	width: 20%;
+	height: 40%;
+	margin-left: 1%;
+	border: 1px solid black;
+	color: black;
+	border-radius: 6%;
+	background-color: #819FF7;
+	position: absolute;
+	top: 45%;
+}
+.contenedor2 ul{
+	position: absolute;
+	list-style: none;
+	left: 15%;
+	bottom: 12%;
+}
+h2{
+	margin: 10%;
+}
+#logo2 img{
+	width: 15%;
+	border-radius: 50%;
+	position: absolute;
+	top: 120%;
+	left: 3%;
+}
+
+#dashboard{
+	width: 77%;
+	height: 170%;
+	background-color: #F7D358;
+	position: absolute;
+	left: 22%;
+	top: 16%;
+	
+}
+.caja1{
+	padding-left: 6%;
+}
+.caja1 img{
+	width: 25%;
+	height: 25%;
+	margin: 3%;
+	border: 1px solid black;
+	border-radius: 3%;
+	display: inline-block;
+}
+.caja2 img{
+	width: 35%;
+	height: 25%;
+	margin: 7%;
+	border: 1px solid black;
+	border-radius: 3%;
+	display: inline-block;
+}
+
+
+
+
