@@ -2,7 +2,8 @@ body{
 	width: 100%;
 	margin: 0px;
 	border: 0px;
-	background-color: silver;
+	background-color: #f7f7f7;
+	font-family: museo-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 header{
 	width: 100%;
@@ -22,14 +23,14 @@ header{
 }
 .contenedor1{
 	width: 20%;
-	height: 30%;
+	height: 32%;
 	margin-left: 1%;
 	border: 1px solid black;
 	color: black;
 	border-radius: 6%;
 	background-color: #819FF7;
 	position: absolute;
-	top: 15%;
+	top: 20%;
 }
 #sedes{
 	list-style: none;
@@ -46,14 +47,14 @@ h3{
 }
 .contenedor2{
 	width: 20%;
-	height: 40%;
+	height: 38%;
 	margin-left: 1%;
 	border: 1px solid black;
 	color: black;
 	border-radius: 6%;
 	background-color: #819FF7;
 	position: absolute;
-	top: 45%;
+	top: 57%;
 }
 .contenedor2 ul{
 	position: absolute;
@@ -83,7 +84,20 @@ h2{
 }
 .caja1{
 	padding-left: 6%;
+
 }
+
+/*Asignar sombra a cajas*/
+
+.img1, .img2, .img6, .img3, .img4, .img7, .img5, .img8, .img9, .img10{
+-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+
+}
+
+
+
 .caja1 img{
 	width: 25%;
 	height: 25%;
@@ -102,5 +116,33 @@ h2{
 }
 
 
+.piepagina{
+	background-color: black;
+	color: white;
+	width: 130%;
+	height: 20%;
+	/*position: absolute;*/
+	margin-left: -28.6%;
+
+}
+
+.piepagina h4{
+	display: inline-block;
+	width: 20%;
+	margin-top: 7%;
+	color: white;
+	margin-left: 13%;
+}
+
+.piepagina h4:hover{
+	color: #F9A91A;
+}
+
+.piepagina img{
+	width: 3%;
+	height: 18%;
+	margin-top: 1%;
+	margin-left: 2%;
+}
 
 
